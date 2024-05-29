@@ -1,0 +1,70 @@
+/* Base styles for the campus section */
+.campus {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 30px;
+  }
+  
+  .gallery img {
+    width: 23%;
+    border-radius: 10px;
+  }
+  
+  .btn {
+    color: #fff;
+    background-color: #212EA0;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .gallery {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .gallery img {
+      width: 48%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery img {
+      width: 100%;
+    }
+  
+    .btn {
+      padding: 8px 16px;
+    }
+  
+    .btn img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .btn {
+      padding: 6px 12px;
+    }
+  
+    .btn img {
+      width: 14px;
+      height: 14px;
+    }
+  }
+  

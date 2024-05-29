@@ -1,0 +1,12 @@
+.footer{
+    margin: 10px auto;
+    border-top: 1px solid #797979;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    display: flex;
+    
+}
+.footer ul li{
+    list-style: none;
+}

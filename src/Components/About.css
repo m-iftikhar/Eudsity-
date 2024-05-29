@@ -1,0 +1,129 @@
+/* Base styles for the about section */
+.about {
+    margin: 100px auto;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .about-left {
+    flex-basis: 40%;
+    position: relative;
+  }
+  
+  .about-right {
+    flex-basis: 56%;
+  }
+  
+  .about-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .play-icon {
+    width: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+  
+  .about-right h2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #212EA0;
+  }
+  
+  .about-right h1 {
+    font-size: 35px;
+    color: #000F38;
+    max-width: 400px;
+    margin: 10px 0;
+  }
+  
+  .about-right p {
+    color: #676767;
+    margin-bottom: 10px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 1024px) {
+    .about {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .about-left, .about-right {
+      flex-basis: 100%;
+    }
+  
+    .about-right h1 {
+      font-size: 30px;
+    }
+  
+    .about-right h2 {
+      font-size: 14px;
+    }
+  
+    .about-right p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-right h1 {
+      font-size: 28px;
+    }
+  
+    .about-right h2 {
+      font-size: 13px;
+    }
+  
+    .about-right p {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about {
+      width: 95%;
+    }
+  
+    .about-right h1 {
+      font-size: 24px;
+    }
+  
+    .about-right h2 {
+      font-size: 12px;
+    }
+  
+    .about-right p {
+      font-size: 14px;
+    }
+  
+    .play-icon {
+      width: 50px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .about-right h1 {
+      font-size: 22px;
+    }
+  
+    .about-right h2 {
+      font-size: 11px;
+    }
+  
+    .about-right p {
+      font-size: 13px;
+    }
+  
+    .play-icon {
+      width: 40px;
+    }
+  }
+  
